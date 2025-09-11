@@ -1,3 +1,6 @@
 export default function Hello() {
-  return <h1>Hello, World!</h1>;
+let name="Bishnu";
+let fullName="Bishnu Prasad Maharana";
+let number=342;
+  return <h3>Hello, i am learning react here ,my name is {name} and my full name {fullName} ,and number {number}</h3>;
 }
