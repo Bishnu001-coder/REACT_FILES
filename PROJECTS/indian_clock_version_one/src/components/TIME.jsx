@@ -1,4 +1,6 @@
-function TIME(){
-return <h4>12:45:52</h4>
+function Time(){
+let time=new Date();
+return <h3>this is current day {time.toLocaleDateString()}--the current time--{time.toLocaleTimeString()}</h3>
+
 }
-export default TIME;
+export default Time;

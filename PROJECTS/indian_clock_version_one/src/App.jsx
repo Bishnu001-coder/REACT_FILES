@@ -1,21 +1,19 @@
-import BODY from './components/body.jsx'
-import TIME from './components/time.jsx'
-import Heading from './components/heading.jsx'
-import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Time from './components/Time'
+import H1 from './components/H1'
+import B1 from './components/B1'  
 import './App.css'
 
 function App() {
 
-  return (
-    <center>
-   <div>clock
-    <Heading />
+  return (<center>
+    <div>clock</div>
+    <H1></H1>
+    <B1></B1>
+    <Time></Time>
+  </center>
     
-    <BODY></BODY>
-    <TIME></TIME>
-    </div>
-    </center>
-  )
+   
+  );
 }
 
 export default App
