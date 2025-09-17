@@ -11,4 +11,4 @@ function ADD_item_1(){
     </div>
  );
 }
-export default ADD_item_1;
+export default ADD_item_1
